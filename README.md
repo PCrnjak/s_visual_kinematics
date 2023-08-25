@@ -11,7 +11,7 @@ If you are unfamiliar with D-H parameters, please refer to [here](https://en.wik
 # Install via pip
 
 ```
-pip3 install s-visual-kinematics
+pip3 install -e git+https://github.com/PCrnjak/s_visual_kinematics.git@main#egg=s_visual_kinematics
 ```
 
 # Explanation of example codes
