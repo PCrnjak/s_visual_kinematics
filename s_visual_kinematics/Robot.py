@@ -11,7 +11,7 @@ class Robot(object):
     # ws_lim: lower and upper bound of all axes [num_axis, 2]
     # ws_division: number of sample points of all axes
     # ==================
-    def __init__(self, params, initial_offset, plot_xlim=[-0.5, 0.5], plot_ylim=[-0.5, 0.5], plot_zlim=[0.0, 1.0],
+    def __init__(self, params, initial_offset, plot_xlim=[-0.8, 0.8], plot_ylim=[-0.8, 0.8], plot_zlim=[0.0, 1.0],
                  ws_lim=None, ws_division=5):
         self.params = params
         self.initial_offset = initial_offset
@@ -95,6 +95,34 @@ class Robot(object):
         self.ax.set_xlabel("x")
         self.ax.set_ylabel("y")
         self.ax.set_zlabel("z")
+
+
+        # Define the points
+        x1 = [0, 0]  # X coordinates of the two points
+        y1 = [0, 0]  # Y coordinates of the two points
+        z1= [0, 0.3]  # Z coordinates of the two points
+
+        # Plot the line
+        self.ax.plot(x1, y1, z1,color = 'blue', linewidth=2)
+
+        # Define the points
+        x2 = [0, 0]  # X coordinates of the two points
+        y2 = [0, 0.15]  # Y coordinates of the two points
+        z2= [0, 0]  # Z coordinates of the two points
+
+        # Plot the line
+        self.ax.plot(x2, y2, z2,color = 'green', linewidth=2)
+
+        # Define the points
+        x3 = [0, 0.15]  # X coordinates of the two points
+        y3 = [0, 0]  # Y coordinates of the two points
+        z3= [0, 0]  # Z coordinates of the two points
+
+        # Plot the line
+        self.ax.plot(x3, y3, z3,color = 'red', linewidth=2)
+
+
+
 
     @abstractmethod
     def draw(self):
