@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-from visual_kinematics.RobotSerial import *
+from s_visual_kinematics.RobotSerial import *
 import numpy as np
 from math import pi
 

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-from visual_kinematics.RobotDelta import *
+from s_visual_kinematics.RobotDelta import *
 from math import pi
 
 

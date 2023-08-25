@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
-from visual_kinematics.RobotSerial import *
-from visual_kinematics.RobotTrajectory import *
+from s_visual_kinematics.RobotSerial import *
+from s_visual_kinematics.RobotTrajectory import *
 import numpy as np
 from math import pi, sqrt, sin, cos, atan2
 

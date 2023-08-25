@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
-from visual_kinematics.RobotDelta import *
-from visual_kinematics.RobotTrajectory import *
+from s_visual_kinematics.RobotDelta import *
+from s_visual_kinematics.RobotTrajectory import *
 import numpy as np
 
 
