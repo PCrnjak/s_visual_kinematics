@@ -11,7 +11,15 @@ If you are unfamiliar with D-H parameters, please refer to [here](https://en.wik
 # Install via pip
 
 ```
-pip3 install -e git+https://github.com/PCrnjak/s_visual_kinematics.git@main#egg=s_visual_kinematics
+pip3 install git+https://github.com/PCrnjak/s_visual_kinematics.git@main#egg=s_visual_kinematics
+```
+
+# Install via Github
+
+```
+git clone https://github.com/PCrnjak/s_visual_kinematics.git
+cd s_visual_kinematics
+pip3 install -e .
 ```
 
 # Explanation of example codes
