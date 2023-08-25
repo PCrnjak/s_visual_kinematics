@@ -1,7 +1,7 @@
 import numpy as np
 
-from visual_kinematics.Robot import *
-from visual_kinematics.utility import simplify_angles
+from s_visual_kinematics.Robot import *
+from s_visual_kinematics.utility import simplify_angles
 import logging
 
 

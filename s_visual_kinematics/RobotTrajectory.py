@@ -1,6 +1,6 @@
 import numpy as np
 
-from visual_kinematics.Robot import *
+from s_visual_kinematics.Robot import *
 from mpl_toolkits.mplot3d import Axes3D
 from matplotlib.widgets import Slider
 

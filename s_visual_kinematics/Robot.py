@@ -1,4 +1,4 @@
-from visual_kinematics.Frame import *
+from s_visual_kinematics.Frame import *
 from numpy import pi
 from abc import abstractmethod
 import matplotlib.pyplot as plt

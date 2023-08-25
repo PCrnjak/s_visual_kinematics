@@ -1,5 +1,5 @@
-from visual_kinematics.Robot import *
-from visual_kinematics.utility import simplify_angle
+from s_visual_kinematics.Robot import *
+from s_visual_kinematics.utility import simplify_angle
 from math import pi, atan2, sqrt
 
 import logging
